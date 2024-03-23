@@ -1,12 +1,15 @@
-body{
-    background-color:peru;
+body {
+    background-color: peru;
 }
-.paper{
+
+.paper {
     background-color: rgb(222, 196, 165);
     padding: 10px;
     margin: 2px;
 }
-.container-fluid{
+
+.container-fluid {
     background-color: peru;
     height: fit-content;
 }
+

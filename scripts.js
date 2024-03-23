@@ -36,7 +36,7 @@ function displayNews(articles) {
     const newsDiv = document.querySelector('#news');
     for (const a of articles) {
         const articleDiv = document.createElement('div');
-        articleDiv.className = 'paper';
+        articleDiv.classList.add('paper', 'card', 'border-0');
 
         //create and append a cat image to the article
         fetchCat(articleDiv);
